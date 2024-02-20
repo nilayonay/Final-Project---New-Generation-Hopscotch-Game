@@ -1,9 +1,9 @@
-Project Definition: The game is played on 10X10 grid. Player is starting by clicking any button on the grid. It starts with 1 automatically. The aim is to fill out the grid as much as possible according to the rules for the next move. Rules are as follows:\n
-1-	It can go right-left-up-bottom by skipping 2 cells.\n
-2-	It can go diagonally by skipping 1 cell.\n
-3-	There are 3 lives for wrong moves.\n
-4-	The score is the player’s last move.\n
-The player can play the game by clicking buttons, saving the game, resuming the game, quitting the game, or restarting it.\n
+Project Definition: The game is played on 10X10 grid. Player is starting by clicking any button on the grid. It starts with 1 automatically. The aim is to fill out the grid as much as possible according to the rules for the next move. Rules are as follows:
+1-	It can go right-left-up-bottom by skipping 2 cells.
+2-	It can go diagonally by skipping 1 cell.
+3-	There are 3 lives for wrong moves.
+4-	The score is the player’s last move.
+The player can play the game by clicking buttons, saving the game, resuming the game, quitting the game, or restarting it.
 
 Project Steps and Program Explanation
 1-	Creating a 10X10 grid 
