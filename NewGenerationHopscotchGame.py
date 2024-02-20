@@ -16,7 +16,7 @@ def click_button(row, column):
     if is_move_valid(row,column):
         current_number+=1
         buttons[row][column].config(text=str(current_number))
-        start_label.config(text="Push the button for your next move")
+        start_label.config(text="Click the button for your next move")
         remaining_chances=3
     else:
         remaining_chances-=1
@@ -55,7 +55,7 @@ def get_prev_position():
                 return i,j
     # if the current number is not found, return (-1,-1)
     return -1, -1
-#define a func for quiting the game
+#define a func for quitting the game
 def quit_game():
     save_game()
     start_label.config(text=f"Your score is {current_number}! See you later!")
@@ -99,12 +99,12 @@ def restart_game():
                            "2- For next move:\n"
                             "a) Hop left, right, up or down by skipping 2 cells\n"
                             "b) Hop diagonal by skipping 1 cell.\n"
-                            "3- You have only 3 lives after wrong move to continue.\n"
+                            "3- You have only 3 lives after the wrong move to continue.\n"
                             "4- Your last move would be your score!\n"
                            "Good luck!")
     remove_end_game_buttons()
 
-#create main window
+#create a main window
 window=tk.Tk()
 start_label=tk.Label(window, text="NEW GENERATION HOPSCOTCH GAME!\n"
                            "Here are the rules:\n"
@@ -112,7 +112,7 @@ start_label=tk.Label(window, text="NEW GENERATION HOPSCOTCH GAME!\n"
                            "2- For next move:\n"
                             "a) Hop left, right, up or down by skipping 2 cells\n"
                             "b) Hop diagonal by skipping 1 cell.\n"
-                            "3- You have only 3 lives after wrong move to continue.\n"
+                            "3- You have only 3 lives after the wrong move to continue.\n"
                             "4- Your last move would be your score!\n"
                            "Good luck!")
 start_label.grid(row=0, columnspan=10)
