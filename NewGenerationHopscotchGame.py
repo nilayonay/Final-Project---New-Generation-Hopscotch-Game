@@ -115,7 +115,7 @@ start_label=tk.Label(window, text="NEW GENERATION HOPSCOTCH GAME!\n"
                             "3- You have only 3 lives after the wrong move to continue.\n"
                             "4- Your last move would be your score!\n"
                            "Good luck!")
-start_label.grid(row=0, columnspan=10)
+start_label.grid(row=0, columnspan=20)
 #create a 10X10 grid with clicking buttons
 buttons=[]
 for i in range(1,11):
