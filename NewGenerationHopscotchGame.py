@@ -78,7 +78,7 @@ def remove_end_game_buttons():
 def save_game():
     game_data={"current_number":current_number,
                "remaining_chances":remaining_chances}
-
+    print(game_data)
     with open("game_state.pkl","wb") as f:
         pickle.dump(game_data, f)
 
